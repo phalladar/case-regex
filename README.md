@@ -74,3 +74,15 @@
 
 # Idaho
     (\d+)\s*([Ii]daho)\s*(\d+) -- X Idaho Y
+
+# Illinois
+    (\d+)\s*([Ii]ll\.?(?:\s*Dec|\s*App)?\.?\s*(?:\dd)?\.?)\s*(\d+) -- X Ill. (Dec|App)? (\dd)? Y
+
+# Indiana
+    (\d+)\s*([Ii]nd\.?\s*(?:[Aa]pp)?\.?)\s*(\d+) X Ind. (App)? Y
+
+# Iowa
+    (\d+)\s*([Ii]owa)\s*(\d+) -- X Iowa Y
+
+# Kansas
+   
