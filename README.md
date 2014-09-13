@@ -122,4 +122,22 @@
     (\d+)\s*([Nn]eb\.?(?:\s*App\.?)?\s*(?:\dd\.?)?)\s*(\d+)
 
 # Nevada
-    
+    (\d+)\s*([Nn]ev\.?(?:\s*App\.?)?\s*(?:\dd\.?)?)\s*(\d+)
+
+# New Hampshire
+    (\d+)\s*([Nn]\.?\s*[Hh]\.?(?:\s*App\.?)?\s*(?:\dd\.?)?)\s*(\d+)
+
+# New Jersey
+    (\d+)\s*([Nn]\.?\s*[Jj]\.?\s*(?:[Ss]uper|[Ll]|[Ee]q|[Mm]isc|[Tt]ax)?)\.?\s*(\d+)
+
+# New Mexico
+    (\d+)\s*([Nn]\.?\s*[Mm]\.)\s*(\d+)
+
+# New York
+    (\d+)\s*([Nn]\.?\s*[Yy]\.?\s*(?:[Ss]up|[Ss]|[Cc]h|[Aa]pp|[Gg]en|[Cc]t|[Cc]iv|[Cc]rim|[Ff]am)?\.?\s*(?:[Cc]t|[Dd]iv|[Tt]erm|[Cc]l)?\.?\s*(?:\dd)?\.?)\s*(\d+)
+
+# North Carolina
+    (\d+)\s*([Nn]\.?[Cc]\.?\s*(?:\s*App\.?)?\s*(?:\dd\.?)?)\s*(\d+)
+
+# North Dakota
+    (\d+)\s*(?:([Nn]\.?[Dd]\.?|[Dd]akota)\s*(?:\s*App\.?)?\s*(?:\dd\.?)?)\s*(\d+)
