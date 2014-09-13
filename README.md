@@ -28,7 +28,7 @@
     (\d+)\s+([Sn]\.?[Ww]\.?(?:\dd)?\.?)\s+(\d+) -- X S.W.(\dd)? Y
 
 # Southern Reporter
-   (\d+)\s+([Ss][Oo]\.(?:\s?\dd)?)\s(\d+) -- X So.(\dd)? Y
+    (\d+)\s+([Ss][Oo]\.(?:\s?\dd)?)\s(\d+) -- X So.(\dd)? Y
 
 # Alabama
     (\d+)\s+([Aa][Ll][Aa]\.?(?:[Aa][Pp][Pp]\.?)?)\s+(\d+) -- X Ala (App)? Y
