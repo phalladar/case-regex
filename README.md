@@ -85,4 +85,4 @@
     (\d+)\s*([Ii]owa)\s*(\d+) -- X Iowa Y
 
 # Kansas
-   
+    (\d+)\s*([Kk]an\.?(?:\s*App\.?)?\s*(?:\dd\.?)?)\s*(\d+) - X Kan. (App)? (\dd)? Y
