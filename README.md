@@ -8,8 +8,11 @@
     Combined: (?:(\d+)\s+([Uu]\.\s?[Ss]\.)\,\s+at\s+(\d+)|(\d+)\s+([Uu]\.?[Ss])\.?\s+(\d+)|(\d+)\s+?([Ll]\.[Ee][Dd]\.(?:\dd\.?)?)\s+?(\d+)|(\d+)\s+?([Ss]\.?\s*[Cc][Tt]\.?)\s+(\d+)|(\d+)\s+([Uu]\.?[Ss]\.?[Ll]\.?[Ww]\.?)\s+(\d+))
 
 # Federal Reporter
-    \d+\s+[Ff]\.\s+\d+ -- X F. Y
+    (\d+)\s+([Ff]\.(?:\dd\.?)?)\s+(\d+) -- X F. Y
+    (\d+)\s+([Ff]\.?\s?[Cc][Aa][Ss]\.?)\s+(\d+) - X F.Cas. Y
 
+# Federal Supplement
+    (\d+)\s+([Ff]\.?[Ss][Uu][Pp][Pp]\.?)\s+(\d+)
 
 # Atlantic Reporter
     \d+\s+[Aa]\.\s?(?:\dd)?\s+\d+ - X A(.\dd)? Y
@@ -17,3 +20,9 @@
 # Northwest Reporter
     \d+\s+?[Nn]\.?\s?[Ww]\.?(?:\dd)?\s+\d+ - X N.W(.\dd)? Y
     \d+\s+?[Nn]\.?\s?[Ww]\.?(?:\dd)?\s+at\s+\d+ - X N.W.(.\dd)? at Y
+
+# Southern Reporter
+   (\d+)\s+([Ss][Oo]\.(?:\s?\dd)?)\s(\d+) -- X So.(\dd)? Y
+
+# Alabama
+    (\d+)\s+([Aa][Ll][Aa]\.?(?:[Aa][Pp][Pp]\.?)?)\s+(\d+)
