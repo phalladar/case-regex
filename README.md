@@ -43,4 +43,6 @@
     (\d+)\s+([Aa]riz\.?(?:[Aa]pp\.?)?)\s+(\d+) -- X Ark. (App)? Y
 
 # California
-    (\d+)\s+([Cc]al\.?\s?(?:[Aa]pp|[Ss]upp|[Uu]nrep|[Rr]ptr)?\.?\s?(?:\dd)?)\s+(\d+) -- X Cal (App|Supp|Rptr|Unrep)? (\dd)? Y
+    (\d+)\s+([Cc]al\.?\s?(?:[Aa]pp|[Ss]upp|[Uu]nrep|[Rr]ptr)?\.?\s?(?:[Ss]upp)?\.?\s?(?:\dd)?)\s+(\d+) -- X Cal (App|Supp|Rptr|Unrep)? (\dd)? Y
+
+# 
