@@ -15,7 +15,10 @@
     (\d+)\s+([Ff]\.?[Ss][Uu][Pp][Pp]\.?)\s+(\d+)
 
 # Atlantic Reporter
-    \d+\s+[Aa]\.\s?(?:\dd)?\s+\d+ - X A(.\dd)? Y
+    \d+\s+[Aa]\.\s?(?:\dd)?\s+\d+ -- X A(.\dd)? Y
+
+# Pacific Reporter
+    (\d+)\s+([Pp]\.\dd)\s+(\d+) -- X P.\dd Y
 
 # Northwest Reporter
     \d+\s+?[Nn]\.?\s?[Ww]\.?(?:\dd)?\s+\d+ - X N.W(.\dd)? Y
@@ -25,4 +28,7 @@
    (\d+)\s+([Ss][Oo]\.(?:\s?\dd)?)\s(\d+) -- X So.(\dd)? Y
 
 # Alabama
-    (\d+)\s+([Aa][Ll][Aa]\.?(?:[Aa][Pp][Pp]\.?)?)\s+(\d+)
+    (\d+)\s+([Aa][Ll][Aa]\.?(?:[Aa][Pp][Pp]\.?)?)\s+(\d+) -- X Ala (App)? Y
+
+# Alaska
+    (\d+)\s+([Aa]laska(?:\s+[Ff]ed\.?)?)\s+(\d+)
