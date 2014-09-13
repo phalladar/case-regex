@@ -101,3 +101,25 @@
 
 # Massachusetts
     (\d+)\s*([Mm]ass\.?\s*(?:[Ss]upp\.?)?\s*(?:[Aa]pp\.?)?\s*(?:[Cc]t|[Dd]iv|[Dd]ec)?\.?)\s*(\d+)
+
+# Michigan
+    (\d+)\s*([Mm]ich\.?(?:\s*App\.?)?\s*(?:\dd\.?)?)\s*(\d+)
+
+# Minnessota
+    (\d+)\s*([Mm]inn\.?(?:\s*App\.?)?\s*(?:\dd\.?)?)\s*(\d+)
+
+# Mississippi
+    (\d+)\s*([Mm]iss\.?\s*(?:[Dd]ec\.?)?)\s*(\d+)
+
+# Missouri
+    (\d+)\s*([Mm]o\.?(?:\s*App\.?)?\s*(?:\dd\.?)?)\s*(\d+)
+
+# Montana
+    (\d+)\s*([Mm]ont\.?(?:\s*App\.?)?\s*(?:\dd\.?)?)\s*(\d+) -- X Mont. (App)? (\dd)? Y
+    (\d+)\s*([Ss]tate\s*[Rr]ptr\.?)\s*(\d+) -- X State Rptr. Y
+
+# Nebraska
+    (\d+)\s*([Nn]eb\.?(?:\s*App\.?)?\s*(?:\dd\.?)?)\s*(\d+)
+
+# Nevada
+    
