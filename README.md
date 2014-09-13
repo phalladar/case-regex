@@ -21,8 +21,10 @@
     (\d+)\s+([Pp]\.?(?:\s?\dd)?)\s+(\d+) -- X P.\dd Y
 
 # Northwest Reporter
-    \d+\s+?[Nn]\.?\s?[Ww]\.?(?:\dd)?\s+\d+ - X N.W(.\dd)? Y
-    \d+\s+?[Nn]\.?\s?[Ww]\.?(?:\dd)?\s+at\s+\d+ - X N.W.(.\dd)? at Y
+    (\d+)\s*([Nn]\.?[Ww]\.?(?:\dd)?)\s*(\d+) -- X N.W.(\dd)? Y
+
+# North Eastern Reporter
+    (\d+)\s*([Nn]\.?[Ee]\.?(?:\dd)?)\s*(\d+) -- X N.E.(\dd)? Y
 
 # South Western Reporter
     (\d+)\s+([Ss]\.?[Ww]\.?(?:\dd)?\.?)\s+(\d+) -- X S.W.(\dd)? Y
@@ -62,8 +64,13 @@
     (\d+)\s*([Aa]pp\.?\s*[Dd]\.?[Cc]\.?)\s*(\d+) -- X App. D.C. Y
 
 # Florida
-    (\d+)\s*([Ff]la\.?\s*(?:Supp\.?)?\s*(?:\dd)?)\.?\s*(\d+) -- X Fla. (Supp(\dd)?)? Y (needs work)
+    (\d+)\s*([Ff]la\.?\s*(?:Supp\.?)?\s*(?:\dd)?)\.?\s*(\d+) -- X Fla. (Supp(\dd)?)? Y 
 
 # Georgia
     (\d+)\s*([Gg]a\.?\s*(?:[Aa]pp)?\.?)\s*(\d+) -- X Ga (App)? Y
 
+# Hawaii
+    (\d+)\s*([Hh]aw\.?\s*(?:[Aa]pp)?\.?)\s*(\d+) X Haw (App)? Y
+
+# Idaho
+    (\d+)\s*([Ii]daho)\s*(\d+) -- X Idaho Y
