@@ -97,4 +97,7 @@
     (\d+)\s*([Mm]e\.?\.?\s*(?:\dd)?\.?)\s*(\d+)
 
 # Maryland
-    
+    (\d+)\s*([Mm]d\.?(?:\s*App\.?)?\s*(?:\dd\.?)?)\s*(\d+)
+
+# Massachusetts
+    (\d+)\s*([Mm]ass\.?\s*(?:[Ss]upp\.?)?\s*(?:[Aa]pp\.?)?\s*(?:[Cc]t|[Dd]iv|[Dd]ec)?\.?)\s*(\d+)
