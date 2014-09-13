@@ -57,11 +57,13 @@
 # Delaware
     (\d+)\s([Dd]el\.?\s*(?:[Cc]h|[Cc]as)?\.?)\s*(\d+) -- X Del. (Ch|Cas)? Y
 
- # District of Columbia
-     (\d+)\s*([Uu]\.?[Ss]\.?\s*[Aa]pp\.?\s*[Dd]\.?[Cc]\.?)\s*(\d+) -- X U.S. App. D.C. Y
-     (\d+)\s*([Aa]pp\.?\s*[Dd]\.?[Cc]\.?)\s*(\d+) -- X App. D.C. Y
+# District of Columbia
+    (\d+)\s*([Uu]\.?[Ss]\.?\s*[Aa]pp\.?\s*[Dd]\.?[Cc]\.?)\s*(\d+) -- X U.S. App. D.C. Y
+    (\d+)\s*([Aa]pp\.?\s*[Dd]\.?[Cc]\.?)\s*(\d+) -- X App. D.C. Y
 
- # Florida
-     (\d+)\s*([Ff]la\.?\s*(?:Supp\.?)?\s*(?:\dd)?)\.?\s*(\d+) -- X Fla. (Supp(\dd)?)? Y (needs work)
+# Florida
+    (\d+)\s*([Ff]la\.?\s*(?:Supp\.?)?\s*(?:\dd)?)\.?\s*(\d+) -- X Fla. (Supp(\dd)?)? Y (needs work)
 
- # Georgia
+# Georgia
+    (\d+)\s*([Gg]a\.?\s*(?:[Aa]pp)?\.?)\s*(\d+) -- X Ga (App)? Y
+
