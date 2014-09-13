@@ -24,11 +24,14 @@
     \d+\s+?[Nn]\.?\s?[Ww]\.?(?:\dd)?\s+\d+ - X N.W(.\dd)? Y
     \d+\s+?[Nn]\.?\s?[Ww]\.?(?:\dd)?\s+at\s+\d+ - X N.W.(.\dd)? at Y
 
-# Southwestern Reporter
-    (\d+)\s+([Sn]\.?[Ww]\.?(?:\dd)?\.?)\s+(\d+) -- X S.W.(\dd)? Y
+# South Western Reporter
+    (\d+)\s+([Ss]\.?[Ww]\.?(?:\dd)?\.?)\s+(\d+) -- X S.W.(\dd)? Y
 
 # Southern Reporter
     (\d+)\s+([Ss][Oo]\.(?:\s?\dd)?)\s(\d+) -- X So.(\dd)? Y
+
+# South Eastern Reporter
+    (\d+)\s+([Ss]\.?[Ee]\.?(?:\dd)?\.?)\s+(\d+) -- X S.E.(\dd)? Y
 
 # Alabama
     (\d+)\s+([Aa][Ll][Aa]\.?\s*(?:[Aa][Pp][Pp]\.?)?)\s+(\d+) -- X Ala (App)? Y
@@ -48,4 +51,17 @@
 # Colorado
     (\d+)\s+([Cc][Oo][Ll][Oo]\.?\s*(?:[Aa][Pp][Pp]\.?)?)\s+(\d+) -- X Colo. (App)? Y
 
-# 
+# Connecticut
+    (\d+)\s+(Conn\.?\s?(?:[Ss]upp|L\.?\s?[Rr]ptr|[Ss]uper(?:\.?\s?[Cc]t)?)?)\.?\s?(\d+) -- X Conn (Supp|LRptr|Super(Ct)?)?
+
+# Delaware
+    (\d+)\s([Dd]el\.?\s*(?:[Cc]h|[Cc]as)?\.?)\s*(\d+) -- X Del. (Ch|Cas)? Y
+
+ # District of Columbia
+     (\d+)\s*([Uu]\.?[Ss]\.?\s*[Aa]pp\.?\s*[Dd]\.?[Cc]\.?)\s*(\d+) -- X U.S. App. D.C. Y
+     (\d+)\s*([Aa]pp\.?\s*[Dd]\.?[Cc]\.?)\s*(\d+) -- X App. D.C. Y
+
+ # Florida
+     (\d+)\s*([Ff]la\.?\s*(?:Supp\.?)?\s*(?:\dd)?)\.?\s*(\d+) -- X Fla. (Supp(\dd)?)? Y (needs work)
+
+ # Georgia
