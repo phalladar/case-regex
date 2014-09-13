@@ -86,3 +86,15 @@
 
 # Kansas
     (\d+)\s*([Kk]an\.?(?:\s*App\.?)?\s*(?:\dd\.?)?)\s*(\d+) - X Kan. (App)? (\dd)? Y
+
+# Kentucky
+    (\d+)\s*([Kk]y\.?\s*(?:[Aa]pp)?\.?)\s*(\d+) X Ky. (App)? Y
+
+# Louisiana
+    (\d+)\s*([Ll]a\.?(?:\s*(?:[Aa]pp|[Aa]nn)?\.?)?\s*(?:\dd\.?)?)\s*(\d+)
+
+# Maine
+    (\d+)\s*([Mm]e\.?\.?\s*(?:\dd)?\.?)\s*(\d+)
+
+# Maryland
+    
