@@ -31,18 +31,21 @@
     (\d+)\s+([Ss][Oo]\.(?:\s?\dd)?)\s(\d+) -- X So.(\dd)? Y
 
 # Alabama
-    (\d+)\s+([Aa][Ll][Aa]\.?(?:[Aa][Pp][Pp]\.?)?)\s+(\d+) -- X Ala (App)? Y
+    (\d+)\s+([Aa][Ll][Aa]\.?\s*(?:[Aa][Pp][Pp]\.?)?)\s+(\d+) -- X Ala (App)? Y
 
 # Alaska
     (\d+)\s+([Aa]laska(?:\s+[Ff]ed\.?)?)\s+(\d+)
 
 # Arizona
-    (\d+)\s+([Aa][Rr][Ii][Zz]\.?(?:[Aa][Pp][Pp]\.?)?)\s+(\d+) -- X Ariz. (App)? Y
+    (\d+)\s+([Aa][Rr][Ii][Zz]\.?\s*(?:[Aa][Pp][Pp]\.?)?)\s+(\d+) -- X Ariz. (App)? Y
 
 # Arkansas
-    (\d+)\s+([Aa]riz\.?(?:[Aa]pp\.?)?)\s+(\d+) -- X Ark. (App)? Y
+    (\d+)\s+([Aa]rk\.?\s*(?:[Aa]pp\.?)?)\s+(\d+) -- X Ark. (App)? Y
 
 # California
     (\d+)\s+([Cc]al\.?\s?(?:[Aa]pp|[Ss]upp|[Uu]nrep|[Rr]ptr)?\.?\s?(?:[Ss]upp)?\.?\s?(?:\dd)?)\s+(\d+) -- X Cal (App|Supp|Rptr|Unrep)? (\dd)? Y
+
+# Colorado
+    (\d+)\s+([Cc][Oo][Ll][Oo]\.?\s*(?:[Aa][Pp][Pp]\.?)?)\s+(\d+) -- X Colo. (App)? Y
 
 # 
